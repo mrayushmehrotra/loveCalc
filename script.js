@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let name2 = document.getElementById("name2").value.toLowerCase();
 
     if (
-      (name1 === "ayush" && name1 === "pawani") ||
-      (name2 === "ayush" && name2 === "pawani")
+      (name1 === "ayush" && name2 === "pawani") ||
+      (name1 === "pawani" && name2 === "ayush")
     ) {
       result.textContent = `Your love score is 100%`;
       return;
